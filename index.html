@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Clemente Cárdenas Photography creates timeless, editorial wedding imagery with an elegant and cinematic approach."
+  >
+  <title>Clemente Cárdenas Photography | Luxury Wedding Photography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar">
+      <a class="brand" href="#hero" aria-label="Clemente Cardenas Photography home">
+        <span class="brand-mark">Clemente Cárdenas</span>
+        <span class="brand-subtitle">Photography</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+        aria-label="Open navigation menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#store">Store</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero" aria-label="Featured wedding photography slideshow">
+      <div class="hero-slides" aria-hidden="true">
+        <div class="hero-slide is-active" style="background-image: url('images/hero-01.jpg');"></div>
+        <div class="hero-slide" style="background-image: url('images/hero-02.jpg');"></div>
+        <div class="hero-slide" style="background-image: url('images/hero-03.jpg');"></div>
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content section-shell">
+        <p class="eyebrow">Editorial wedding storytelling</p>
+        <h1>Romantic imagery with timeless elegance.</h1>
+        <p class="hero-text">
+          For couples drawn to refined celebration, heartfelt atmosphere, and photographs
+          that feel as cinematic as the memories themselves.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Inquire Now</a>
+          <a class="button button-secondary" href="#portfolio">View Portfolio</a>
+          <a class="button button-secondary" href="#store">Shop Prints</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="intro section-shell section-spacing">
+      <div class="intro-copy">
+        <p class="eyebrow">A boutique experience</p>
+        <h2>Crafted for celebrations that deserve beauty, feeling, and intention.</h2>
+      </div>
+      <p class="intro-text">
+        Clemente Cardenas Photography documents weddings with an artful eye for light,
+        intimacy, and the quiet luxury woven into every detail of the day.
+      </p>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio section-spacing" id="portfolio">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Curated moments, framed with grace.</h2>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card portrait">
+            <img src="images/vanessa&anthony-303.jpg" alt="Bride standing in window light">
+            <div class="portfolio-overlay">
+              <span>Bridal editorial</span>
+            </div>
+          </article>
+          <article class="portfolio-card landscape">
+            <img src="images/vanessa&anthony-309.jpg" alt="Couple walking through elegant wedding venue">
+            <div class="portfolio-overlay">
+              <span>Wedding day romance</span>
+            </div>
+          </article>
+          <article class="portfolio-card landscape">
+            <img src="images/moses&ileanawedding-500.jpg" alt="Reception details with candlelit table">
+            <div class="portfolio-overlay">
+              <span>Refined details</span>
+            </div>
+          </article>
+          <article class="portfolio-card portrait">
+            <img src="images/juany&clement-526.jpg" alt="Couple portrait at sunset">
+            <div class="portfolio-overlay">
+              <span>Cinematic portraiture</span>
+            </div>
+          </article>
+          <article class="portfolio-card portrait">
+            <img src="images/juany&clement-353.jpg" alt="Elegant engagement session embrace">
+            <div class="portfolio-overlay">
+              <span>Engagement story</span>
+            </div>
+          </article>
+          <article class="portfolio-card landscape">
+            <img src="images/moses&ileanawedding-776.jpg" alt="Wedding ceremony floral aisle">
+            <div class="portfolio-overlay">
+              <span>Signature celebrations</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Store -->
+    <section class="store section-spacing" id="store">
+      <div class="section-shell">
+        <div class="store-heading">
+          <div class="section-heading">
+            <p class="eyebrow">Fine Art Store</p>
+            <h2>Gallery pieces for homes that hold a story.</h2>
+          </div>
+          <p class="store-intro">
+            Choose a favorite image, select a finish, and begin a print order. Each piece is
+            prepared as a fine art print inquiry so sizing, paper, and delivery can be confirmed personally.
+          </p>
+        </div>
+
+        <div class="store-grid" aria-label="Prints available for purchase">
+          <article class="store-card" data-title="Bridal Window Light" data-price="145" data-image="images/vanessa&anthony-303.jpg">
+            <img src="images/vanessa&anthony-303.jpg" alt="Fine art bridal portrait print">
+            <div class="store-card-body">
+              <p class="store-category">Bridal Editorial</p>
+              <h3>Bridal Window Light</h3>
+              <p class="store-price">From $145</p>
+              <label>
+                Finish
+                <select class="store-option" aria-label="Choose print finish for Bridal Window Light">
+                  <option value="11x14 Fine Art Print" data-price="145">11x14 Fine Art Print</option>
+                  <option value="16x20 Museum Print" data-price="225">16x20 Museum Print</option>
+                  <option value="24x36 Framed Print" data-price="425">24x36 Framed Print</option>
+                </select>
+              </label>
+              <button class="store-add" type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="store-card" data-title="Estate Walk" data-price="165" data-image="images/vanessa&anthony-309.jpg">
+            <img src="images/vanessa&anthony-309.jpg" alt="Couple walking through an elegant estate">
+            <div class="store-card-body">
+              <p class="store-category">Wedding Romance</p>
+              <h3>Estate Walk</h3>
+              <p class="store-price">From $165</p>
+              <label>
+                Finish
+                <select class="store-option" aria-label="Choose print finish for Estate Walk">
+                  <option value="12x18 Fine Art Print" data-price="165">12x18 Fine Art Print</option>
+                  <option value="20x30 Museum Print" data-price="275">20x30 Museum Print</option>
+                  <option value="30x40 Framed Print" data-price="525">30x40 Framed Print</option>
+                </select>
+              </label>
+              <button class="store-add" type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="store-card" data-title="Candlelit Table" data-price="125" data-image="images/moses&ileanawedding-500.jpg">
+            <img src="images/moses&ileanawedding-500.jpg" alt="Candlelit wedding reception detail print">
+            <div class="store-card-body">
+              <p class="store-category">Reception Detail</p>
+              <h3>Candlelit Table</h3>
+              <p class="store-price">From $125</p>
+              <label>
+                Finish
+                <select class="store-option" aria-label="Choose print finish for Candlelit Table">
+                  <option value="10x15 Fine Art Print" data-price="125">10x15 Fine Art Print</option>
+                  <option value="16x24 Museum Print" data-price="215">16x24 Museum Print</option>
+                  <option value="24x36 Framed Print" data-price="425">24x36 Framed Print</option>
+                </select>
+              </label>
+              <button class="store-add" type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="store-card" data-title="Golden Hour Vows" data-price="145" data-image="images/juany&clement-526.jpg">
+            <img src="images/juany&clement-526.jpg" alt="Romantic couple portrait fine art print">
+            <div class="store-card-body">
+              <p class="store-category">Cinematic Portrait</p>
+              <h3>Golden Hour Vows</h3>
+              <p class="store-price">From $145</p>
+              <label>
+                Finish
+                <select class="store-option" aria-label="Choose print finish for Golden Hour Vows">
+                  <option value="11x14 Fine Art Print" data-price="145">11x14 Fine Art Print</option>
+                  <option value="16x20 Museum Print" data-price="225">16x20 Museum Print</option>
+                  <option value="24x36 Framed Print" data-price="425">24x36 Framed Print</option>
+                </select>
+              </label>
+              <button class="store-add" type="button">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <aside class="cart-panel" id="cart-panel" aria-label="Print order cart" aria-hidden="true">
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Print Order</p>
+          <h2>Your Cart</h2>
+        </div>
+        <button class="cart-close" type="button" aria-label="Close cart">Close</button>
+      </div>
+      <div class="cart-items" id="cart-items"></div>
+      <p class="cart-empty" id="cart-empty">Your cart is empty. Add a print from the store gallery.</p>
+      <div class="cart-footer">
+        <div class="cart-total-row">
+          <span>Estimated total</span>
+          <strong id="cart-total">$0</strong>
+        </div>
+        <form class="cart-form" id="cart-form" novalidate>
+          <label for="cart-name">Name</label>
+          <input id="cart-name" type="text" placeholder="Your full name" required>
+          <label for="cart-email">Email</label>
+          <input id="cart-email" type="email" placeholder="you@example.com" required>
+          <label for="cart-notes">Delivery Notes</label>
+          <textarea id="cart-notes" rows="4" placeholder="Shipping city, preferred size notes, or framing questions."></textarea>
+          <button class="button button-primary" type="submit">Request Purchase</button>
+          <p class="form-status" id="cart-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </aside>
+    <button class="cart-launcher" id="cart-launcher" type="button" aria-controls="cart-panel" aria-expanded="false">
+      Cart <span id="cart-count">0</span>
+    </button>
+    <div class="cart-backdrop" id="cart-backdrop" hidden></div>
+
+    <!-- Services -->
+    <section class="services section-spacing" id="services">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>An elevated collection for every chapter.</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Wedding Day Coverage</h3>
+            <p>
+              Full-day storytelling with a calm, attentive presence and artful direction
+              that preserves every emotional highlight.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Engagement Sessions</h3>
+            <p>
+              Editorial portraits designed to reflect your connection, style, and the
+              anticipation leading into your celebration.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Bridal Portraits</h3>
+            <p>
+              A dedicated portrait experience focused on elegance, movement, and refined
+              details in a beautifully chosen setting.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Albums and Fine Art Prints</h3>
+            <p>
+              Heirloom keepsakes crafted with premium materials so your photographs can be
+              lived with, held, and passed down.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section-spacing" id="about">
+      <div class="section-shell about-layout">
+        <div class="about-image-wrap">
+          <img src="images/clementecardenas.jpg" alt="Portrait of wedding photographer Clemente Cárdenas">
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">About</p>
+          <h2>Photography rooted in emotion, artistry, and lasting beauty.</h2>
+          <p>
+            Clemente approaches each wedding with a documentarian's intuition and an
+            editorial sense of composition. The result is imagery that feels both deeply
+            personal and undeniably polished.
+          </p>
+          <p>
+            From quiet getting-ready moments to the grandeur of the evening celebration,
+            every frame is created to honor your story with sophistication and heart.
+          </p>
+          <a class="text-link" href="#contact">Begin your experience</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section-spacing" id="contact">
+      <div class="section-shell contact-layout">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s create something unforgettable.</h2>
+          <p>
+            Share the vision for your wedding, and we will begin designing a photography
+            experience that feels seamless, personal, and beautifully considered.
+          </p>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your full name" required>
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required>
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" placeholder="(555) 555-5555" required>
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="date">Wedding Date</label>
+              <input id="date" name="date" type="date" required>
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-field form-field-full">
+              <label for="venue">Venue</label>
+              <input id="venue" name="venue" type="text" placeholder="Ceremony or reception venue" required>
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-field form-field-full">
+              <label for="message">Tell us about your celebration</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Wedding location, guest count, aesthetic, and anything you would love captured."
+                required
+              ></textarea>
+              <small class="error-message"></small>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button class="button button-primary" type="submit">Send Inquiry</button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-layout">
+      <div>
+        <p class="footer-brand">Clemente Cárdenas Photography</p>
+        <p class="footer-copy">Luxury wedding photography with an editorial, cinematic soul.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#store">Store</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
